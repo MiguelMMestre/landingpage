@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    background-color: #eee;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5vw;
+    background-color: #eee;
+
+}
+nav img{
+    display: block;
+    max-width: 300px;
+    float: left;
+    padding: 10px;
+}
+.first-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    float: right;
+    list-style-type: none;
+}
+.dropbtn{
+    text-decoration: none;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.dropbtn:hover{
+    border: none;
+    box-shadow: 0px 0px 7px 3px rebeccapurple;
+}
+.dropdown:hover .dropcont{
+    display: block;
+} 
+.dropcont{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+    background-color: #eee;
+}
+.dropcont li{
+    display: block;
+    color: rebeccapurple;
+    padding: 5px;
+}
+.top-form{
+    display: block;
+    margin-top: 5vw;
+    padding: 50px;
+    text-align: center;
+}
+.top-form input{
+    display: block;
+    margin: 2vw auto;
+}
+input[type=email] {
+    width: 25vw;
+    height: 2vw;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+input[type=email]:hover {
+    box-shadow: 0px 0px 7px 3px rebeccapurple;
+}
+input[type=submit] {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rebeccapurple;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    color: #eee;
+}
+input[type=submit]:hover{
+    background-color: #eee;
+    box-shadow: 0px 0px 7px 3px rebeccapurple;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+#features{
+    margin: 1vw auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#features article{
+    display: inline-block;
+    width: 60vw;
+    margin: 2.5vw auto;
+}
+.fa-fire, .fa-truck, .fa-battery-full{
+    font-size: xxx-large;
+    color: orangered;
+    float: left;
+    width: 20%
+}
+.clearfix{
+    float: right;
+    width: 80%
+}
+.clearfix h2, p{
+    margin: 0;
+}
+#how-it-works{
+    width: 50%;
+    height: 28vw;
+    margin: 10vw auto;
+}
+iframe{
+    width: 100%;
+    height: inherit;
+}
+#pricing{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 5vw auto;
+}
+.box{
+    box-shadow: 0 0 7px 3px rebeccapurple;
+    width: 30%;
+    height: fit-content;
+    text-align: center;
+}
+.box ul{
+    padding: 0;
+    list-style-type: none;
+}
+.box li{
+    padding: 1vw 0;
+}
+.box h3{
+    margin: 0;
+    display: block;
+    text-align: center;
+    background-color: rgba(102, 51, 153, 0.7);
+    padding: 1vw 0;
+    color: #eee;
+}
+button{
+    margin: 1vw;
+    border: 1px solid rebeccapurple;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+}
+footer{
+    width: 75%;
+    margin: 2vw auto;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5vw 0;
+}
+footer ul li{
+    margin-left: 1vw;
+    cursor: pointer;
+}
+footer p{
+    float: right;
+    margin-bottom: 1vw;
+    color: darkgray;
+}
